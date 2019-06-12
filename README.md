@@ -78,7 +78,7 @@ public MyViewModel()
   
   //Retriving props.
   var str = (string) this["StringProp"];
-  var num = (string) this["IntProp"];
+  var num = (int) this["IntProp"];
 }
 
 ```
